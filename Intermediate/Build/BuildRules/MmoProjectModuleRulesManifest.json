@@ -1,0 +1,11 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Epoch\\Documents\\Unreal Projects\\MmoProject\\Source\\MmoProject\\MmoProject.Build.cs",
+		"C:\\Users\\Epoch\\Documents\\Unreal Projects\\MmoProject\\Plugins\\Marketplace\\MmoSystemEditor\\Source\\MmoSystemEditor\\MmoSystemEditor.Build.cs",
+		"C:\\Users\\Epoch\\Documents\\Unreal Projects\\MmoProject\\Plugins\\Marketplace\\MmoSystem\\Source\\MmoSystem\\MmoSystem.Build.cs",
+		"C:\\Users\\Epoch\\Documents\\Unreal Projects\\MmoProject\\Plugins\\Marketplace\\MmoSystem\\Source\\MySQL\\MySQL.Build.cs",
+		"C:\\Users\\Epoch\\Documents\\Unreal Projects\\MmoProject\\Source\\MmoProject.Target.cs",
+		"C:\\Users\\Epoch\\Documents\\Unreal Projects\\MmoProject\\Source\\MmoProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.0"
+}

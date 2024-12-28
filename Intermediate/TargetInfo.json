@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MmoProject",
+			"Path": "..\\Source\\MmoProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MmoProjectEditor",
+			"Path": "..\\Source\\MmoProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

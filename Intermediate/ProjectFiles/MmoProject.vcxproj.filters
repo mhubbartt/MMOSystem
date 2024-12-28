@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MmoProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MmoProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MmoProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\MmoProject.sln.DotSettings.user" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace">
+      <UniqueIdentifier>{1E520605-3A0C-397B-A124-81C6D67B82FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\MmoSystemEditor">
+      <UniqueIdentifier>{E69CD9E3-FA42-36E2-BACC-6CB7D703AE2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\MmoSystemEditor\Source">
+      <UniqueIdentifier>{E7AFF658-B9FE-3545-923B-17D6CB2717D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor">
+      <UniqueIdentifier>{98E144FB-9E59-300B-A4CB-7EAB4D1FBB98}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\MmoSystemEditor.Build.cs">
+      <Filter>Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Private">
+      <UniqueIdentifier>{796D6CB2-7715-3FF3-A351-F242B324E4CA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Private\MmoSystemEditor.cpp">
+      <Filter>Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Private\MmoSystemEditorCommands.cpp">
+      <Filter>Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Private\MmoSystemEditorStyle.cpp">
+      <Filter>Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Public">
+      <UniqueIdentifier>{49F0169D-B043-3CD6-865C-745B14DB88C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Public\MmoSystemEditor.h">
+      <Filter>Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Public\MmoSystemEditorCommands.h">
+      <Filter>Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Public\MmoSystemEditorStyle.h">
+      <Filter>Plugins\Marketplace\MmoSystemEditor\Source\MmoSystemEditor\Public</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\Marketplace\MmoSystemEditor\MmoSystemEditor.uplugin">
+      <Filter>Plugins\Marketplace\MmoSystemEditor</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\MmoSystemEditor\Resources">
+      <UniqueIdentifier>{89FDD7EF-451D-3C43-AEB6-C99980EA10D1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Marketplace\MmoSystemEditor\Resources\Icon128.png">
+      <Filter>Plugins\Marketplace\MmoSystemEditor\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\Marketplace\MmoSystemEditor\Resources\PlaceholderButtonIcon.svg">
+      <Filter>Plugins\Marketplace\MmoSystemEditor\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\MmoSystem">
+      <UniqueIdentifier>{3900D1C6-026B-31FB-8A7E-A8FBC506D01D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\MmoSystem.uplugin">
+      <Filter>Plugins\Marketplace\MmoSystem</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Config">
+      <UniqueIdentifier>{5DC59A00-202F-3203-B4E6-6FE7751AF849}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Config\DefaultMmoSystem.ini">
+      <Filter>Plugins\Marketplace\MmoSystem\Config</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Resources">
+      <UniqueIdentifier>{E37A8B6D-5678-3C29-A5AE-8321ABBDEBE7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Resources\Icon128.png">
+      <Filter>Plugins\Marketplace\MmoSystem\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source">
+      <UniqueIdentifier>{9581C955-B1A9-34B9-9208-2FBE9A324B79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem">
+      <UniqueIdentifier>{27CA15C6-CEB8-3156-BC06-4A56742A1D21}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\GlobalsNTags.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\GlobalsNTags.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\MmoSystem.Build.cs">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\MmoSystem.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\MmoSystem.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\MmoSystemBPLibrary.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\MmoSystemBPLibrary.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\PreparedStatements.json">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\ULoggerMacros.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\ULoggerMacros.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea">
+      <UniqueIdentifier>{CC532C8A-BD3C-3345-90EC-BE55E0235042}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea\.gitignore">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea</Filter>
+    </None>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea\indexLayout.xml">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea</Filter>
+    </None>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea\projectSettingsUpdater.xml">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea</Filter>
+    </None>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea\vcs.xml">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea</Filter>
+    </None>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea\workspace.xml">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\.idea</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem">
+      <UniqueIdentifier>{4A117967-042A-3440-90ED-F6343B708373}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\MSAbilitySystemComponent.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\MSAbilitySystemComponent.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\Abilites">
+      <UniqueIdentifier>{8B5DCCEE-C128-3EE7-91C1-5E685B5F381C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\Abilites\BaseAbility.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\Abilites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\Abilites\BaseAbility.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\Abilites</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\Attributes">
+      <UniqueIdentifier>{9B0CD2D9-5488-394C-AC7D-3BAD9F8B323A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\Attributes\MSAttributeSet.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\Attributes\MSAttributeSet.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\AbilitySystem\Attributes</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\Animation">
+      <UniqueIdentifier>{B319DD4B-40D2-3A4D-B790-AE9F839CD32B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Animation\PlayerAnimInstance.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Animation\PlayerAnimInstance.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Animation</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\AssetMAnager">
+      <UniqueIdentifier>{47866FF4-720C-3807-B0F9-C0DD83391EBE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\AssetMAnager\MSAssetManager.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\AssetMAnager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\AssetMAnager\MSAssetManager.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\AssetMAnager</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera">
+      <UniqueIdentifier>{39E9BAC0-E2D8-3E05-8BF9-4DADEE5FF376}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSCameraAssistInterface.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSCameraComponent.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSCameraComponent.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSCameraMode.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSCameraMode.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSCameraMode_ThirdPerson.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSCameraMode_ThirdPerson.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSPenetrationAvoidanceFeeler.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSPlayerCameraManager.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSPlayerCameraManager.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSUICameraManagerComponent.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera\MSUICameraManagerComponent.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Camera</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game">
+      <UniqueIdentifier>{03290D85-24E3-31F6-962A-5505E45D2E34}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game\MSGameInstance.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game\MSGameInstance.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game\MSGameMode.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game\MSGameMode.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game\MSHUD.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game\MSHUD.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game\MSPlayerController.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game\MSPlayerController.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game\MSPlayerState.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game\MSPlayerState.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Game</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interaction">
+      <UniqueIdentifier>{12047FFD-2E5E-3D12-BEE7-0C23A8F89A99}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interaction\InteractionComponent.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interaction\InteractionComponent.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interaction\InteractionStrucs.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interaction</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interfaces">
+      <UniqueIdentifier>{2E02CC2B-E964-3E97-829E-1E9D94FAC233}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interfaces\InteractionInterface.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interfaces\InteractionInterface.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Interfaces</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory">
+      <UniqueIdentifier>{27B43F0A-9A2E-365A-89AF-BB806657430E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryComponent.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryComponent.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InvStucsNEnums.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InvStucsNEnums.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\Actors">
+      <UniqueIdentifier>{517DCC61-0D64-3EE7-B467-F071A8C454E3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\Actors\WorldActor.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\Actors\WorldActor.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\Actors</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryManager">
+      <UniqueIdentifier>{C53B1871-62BC-3001-844C-8432D027B414}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryManager\InventoryManager.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryManager\InventoryManager.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryManager\InventorySaveBlobStruct.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryManager\InventorySaveBlobStruct.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Inventory\InventoryManager</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player">
+      <UniqueIdentifier>{C511C070-59D0-3BDD-B140-DF519F6C1392}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player\BaseCharacter.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player\BaseCharacter.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player\NetCharacterMovementComponent.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player\NetCharacterMovementComponent.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player\NPCCharacter.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player\NPCCharacter.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player\PlayerCharacter.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player\PlayerCharacter.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\Player</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\PlayerData">
+      <UniqueIdentifier>{CCE79733-F4CB-397A-B7AA-541F33187DA8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\PlayerData\PlayerData.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\PlayerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\PlayerData\PlayerData.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\PlayerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\PlayerData\PlayerDataSubsystem.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\PlayerData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\PlayerData\PlayerDataSubsystem.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\PlayerData</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\SystemMessages">
+      <UniqueIdentifier>{BE7458E6-EA80-3EB1-9237-BD15695CAC76}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\SystemMessages\LoggingMacros.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\SystemMessages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\SystemMessages\LoggingMacros.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\SystemMessages</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI">
+      <UniqueIdentifier>{77596F9E-9B13-3D72-90C3-385CE0B087BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI\BaseUserWidget.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI\BaseUserWidget.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI\WidgetController.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI\WidgetController.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI\WidgetSubsystem.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI\WidgetSubsystem.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI\WidgetSystemController.cpp">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI\WidgetSystemController.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MmoSystem\UI</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MySQL">
+      <UniqueIdentifier>{78BADD62-5C54-34C7-ACBE-3EF58F1B89CF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\MySQL.Build.cs">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MySQL\include">
+      <UniqueIdentifier>{03A86568-2BC3-3CBB-8822-AD7DD28C981C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\errmsg.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\field_types.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysqld_error.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysqlx_ername.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysqlx_error.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysqlx_version.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql_com.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql_time.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql_version.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\my_command.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\my_compress.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\my_list.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql">
+      <UniqueIdentifier>{3F2A0460-0459-3261-885C-3CDED2426670}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql\client_plugin.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql\plugin_auth_common.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql\udf_registration_types.h">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include\mysql</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MySQL\include\openssl">
+      <UniqueIdentifier>{FC089214-38F3-3C55-8CBE-38DFB6082AAA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\include\openssl\applink.c">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\include\openssl</Filter>
+    </None>
+    <Filter Include="Plugins\Marketplace\MmoSystem\Source\MySQL\lib">
+      <UniqueIdentifier>{32143AE5-B2AB-3630-A76C-29D0F760DA99}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\lib\libcrypto-1_1-x64.dll">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\lib</Filter>
+    </None>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\lib\libmysql.dll">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\lib</Filter>
+    </None>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\lib\libssl-1_1-x64.dll">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\lib</Filter>
+    </None>
+    <None Include="..\..\Plugins\Marketplace\MmoSystem\Source\MySQL\lib\mysqlclient.lib">
+      <Filter>Plugins\Marketplace\MmoSystem\Source\MySQL\lib</Filter>
+    </None>
+    <Filter Include="Source\MmoProject">
+      <UniqueIdentifier>{8892E11F-5B88-3160-B31F-26506BEB4E8C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MmoProject\MmoProject.Build.cs">
+      <Filter>Source\MmoProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MmoProject\MmoProject.cpp">
+      <Filter>Source\MmoProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MmoProject\MmoProject.h">
+      <Filter>Source\MmoProject</Filter>
+    </ClCompile>
+    <Filter Include="Source\MmoProject\.idea">
+      <UniqueIdentifier>{755EB726-8C3F-347C-B118-02107E51EA5F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MmoProject\.idea\.gitignore">
+      <Filter>Source\MmoProject\.idea</Filter>
+    </None>
+    <None Include="..\..\Source\MmoProject\.idea\indexLayout.xml">
+      <Filter>Source\MmoProject\.idea</Filter>
+    </None>
+    <None Include="..\..\Source\MmoProject\.idea\projectSettingsUpdater.xml">
+      <Filter>Source\MmoProject\.idea</Filter>
+    </None>
+    <None Include="..\..\Source\MmoProject\.idea\vcs.xml">
+      <Filter>Source\MmoProject\.idea</Filter>
+    </None>
+    <None Include="..\..\Source\MmoProject\.idea\workspace.xml">
+      <Filter>Source\MmoProject\.idea</Filter>
+    </None>
+  </ItemGroup>
+</Project>
